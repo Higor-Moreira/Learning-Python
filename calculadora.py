@@ -36,6 +36,25 @@ while True:
         numero_1 = int(input("Digite o primeiro numero: "))
         numero_2 = int(input("Digite o segundo numero: "))
         resultado = numero_1 + numero_2
-        print(f"A soma de {numero_1} + {numero_2} é = {resultado}")
+        print(f"{numero_1} + {numero_2} é igual a {resultado}")
+    
+    elif operacao == 2:
+        numero_1 = int(input("Digite o primeiro numero: "))
+        numero_2 = int(input("Digite o segundo numero: "))
+        resultado = numero_1 - numero_2
+        print(f"{numero_1} - {numero_2} é igual a {resultado}")
+
+    elif operacao == 3:
+        numero_1 = int(input("Digite o primeiro numero: "))
+        numero_2 = int(input("Digite o segundo numero: "))
+        resultado = numero_1 * numero_2
+        print(f"{numero_1} X {numero_2} é igual a {resultado}")
+
+    elif operacao == 4:
+        numero_1 = int(input("Digite o primeiro numero: "))
+        numero_2 = int(input("Digite o segundo numero: "))
+        resultado = numero_1 / numero_2
+        print(f"{numero_1} dividido por {numero_2} é igual a {resultado}")
+        
 
 print('saiu')
